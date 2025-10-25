@@ -1,0 +1,4 @@
+com\freight\repo\FreightRepository.class
+com\azship\freight\FreightApplication.class
+com\freight\web\FreightController.class
+com\freight\model\Freight.class

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo base para o app todo */
+body {
+  @apply bg-background text-gray-100 font-sans;
+}
+
+/* Scrollbars (opcional, só pra ficar bonito no dark mode) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #444;
+}
