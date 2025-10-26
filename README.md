@@ -10,7 +10,7 @@ Desenvolvido com **Spring Boot**, **PostgreSQL** e **React (Vite)**, tudo rodand
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 
-## 🚀 Como rodar o projeto
+## Como rodar o projeto
 
 Clone este repositório e entre na pasta principal:
 
