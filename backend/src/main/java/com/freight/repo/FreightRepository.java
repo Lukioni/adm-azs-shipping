@@ -12,16 +12,14 @@ public interface FreightRepository extends JpaRepository<Freight, Long> {
     @Query(value = """
         SELECT * FROM freight f
         WHERE (
-            COALESCE(f.status,'') ILIKE CONCAT('%', :q, '%')
-            OR CAST(f.attributes AS TEXT) ILIKE CONCAT('%', :q, '%')
+         CAST(f.attributes AS TEXT) ILIKE CONCAT('%', :q, '%')
         )
         ORDER BY f.id DESC
         """,
             countQuery = """
         SELECT count(*) FROM freight f
         WHERE (
-            COALESCE(f.status,'') ILIKE CONCAT('%', :q, '%')
-            OR CAST(f.attributes AS TEXT) ILIKE CONCAT('%', :q, '%')
+          CAST(f.attributes AS TEXT) ILIKE CONCAT('%', :q, '%')
         )
         """,
             nativeQuery = true)
