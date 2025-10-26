@@ -34,6 +34,3 @@ http://localhost:5173
 
 ## BACKEND
 http://localhost:8080/api/freights
-
-## BACKEND
-http://localhost:8080/api/freight
